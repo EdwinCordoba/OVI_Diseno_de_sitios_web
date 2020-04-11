@@ -1,0 +1,131 @@
+/*Estilos Página General */
+*{
+	padding: 0px;
+	margin-left: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Fondo de Página*/
+body{
+	background-color: #ffffff;
+}
+
+/* Estilos del Titulo*/
+
+.titulo{
+	float: right;
+	padding: 0px;
+	font-size: 60px;
+	margin: 0px 150px 0px 0px;
+	color: #005883;
+}
+
+/* Estilos Barra de Navegación*/
+
+.navegacion{
+	width: 1000px;
+	background-color: #005883;
+	margin:15px auto;
+	font-size: 20px;
+	text-align: center;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+/* Estilos Menu*/
+.menu>li{
+	display: inline-block;
+	position: relative;
+}
+
+.menu>li a{
+	display: block;
+	padding: 15px 40px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #f47920;
+}
+
+/* Estilos Submenu*/
+.submenu{
+	position: absolute;
+	background-color: #005883;
+	width: 110%;
+	display: none;
+}
+
+.submenu li a{
+	display: block;
+	padding: 5px;
+	color: #ffffff;
+}
+
+.menu li:hover .submenu{
+	display: block;
+}
+
+/* Estilos Contenido */
+section h1{
+	color: #005883;
+	text-align: center;
+}
+
+.objetivos{
+	background: #b3b3b3;
+	width: 900px;
+	height: 500px ; 
+	float: left;
+	text-align: justify;
+	color: #000000;
+	font-size: 20px;
+	margin: 0px 0px 10px 10px;
+	padding: 10px 10px;
+}
+
+.sitioweb h3{
+	color: #005883;
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+
+}
+
+.sitioweb{
+	float: right;
+}
+
+.aside{
+	float: right;
+	width: 300px;
+	height: 300px;
+	margin: 0px;
+	padding:0px 10px 10px 0px;
+}
+
+footer{
+	float: left;
+	background: #005883;
+	width: 1240px;
+	margin: 0px 0px 0px 10px;
+	color: #ffffff;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+
+.visitas{
+	margin: 0px 0px 10px 10px;
+}
+
+
+
+
+
+
+
